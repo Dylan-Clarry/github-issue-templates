@@ -19,8 +19,7 @@ body:
         2. Click on '...'
         3. Scroll down to '...'
         4. See error
-      validations:
-        required: false
+      validations: false
   - type: textarea
     attributes:
       label: Expected Behaviour
@@ -28,7 +27,7 @@ body:
       validations: false
   - type: textarea
     attributes:
+      label: Screenshots
       description: If applicable, add screenshots to help explain your problem
-      validations:
-        required: false
+      validations: false
 
