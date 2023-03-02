@@ -33,7 +33,9 @@ body:
       label: "Screenshots"
       description: "If applicable, add screenshots to help explain your problem"
       placeholder: |
-       You can upload screenshots by either dragging and dropping the image in the textarea\nOR\nclicking the textarea and clicking on "Attach files by dragging & dropping, selecting or pasting them." to open a file selector.
+       You can upload screenshots by either dragging and dropping the image in the textarea\n
+       OR\n
+       clicking the textarea and clicking on "Attach files by dragging & dropping, selecting or pasting them." to open a file selector.
     validations:
       required: false
   - type: textarea
