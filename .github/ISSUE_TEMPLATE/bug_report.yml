@@ -23,7 +23,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Expected Behaviour
+      label: **Expected Behaviour**
       description: A clear and concise description of what can be expected to happen.
     validations: 
       required: false
@@ -31,6 +31,8 @@ body:
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem
+      placeholder: |
+       You can upload screenshots by either dragging and dropping the image in the textarea OR clicking the textarea and clicking on "Attach files by dragging & dropping, selecting or pasting them." to open a file selector.
     validations:
       required: false
 
