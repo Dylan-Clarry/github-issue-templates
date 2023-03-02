@@ -19,15 +19,15 @@ body:
         2. Click on '...'
         3. Scroll down to '...'
         4. See error
-      validations: false
+      required: false
   - type: textarea
     attributes:
       label: Expected Behaviour
       description: A clear and concise description of what can be expected to happen.
-      validations: false
+      required: false
   - type: textarea
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem
-      validations: false
+      required: false
 
