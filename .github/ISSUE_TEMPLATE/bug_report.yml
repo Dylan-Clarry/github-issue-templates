@@ -23,7 +23,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: **Expected Behaviour**
+      label: Expected Behaviour
       description: A clear and concise description of what can be expected to happen.
     validations: 
       required: false
@@ -35,4 +35,14 @@ body:
        You can upload screenshots by either dragging and dropping the image in the textarea OR clicking the textarea and clicking on "Attach files by dragging & dropping, selecting or pasting them." to open a file selector.
     validations:
       required: false
-
+  - type: textarea
+    attributes:
+      label: Desktop (please complete the following information)":"
+      description: Steps to reproduce the behaviour
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: false
