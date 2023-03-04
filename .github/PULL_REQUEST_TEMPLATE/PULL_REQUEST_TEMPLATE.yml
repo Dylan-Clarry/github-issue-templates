@@ -23,25 +23,20 @@ body:
         - label: "New feature (non-breaking change which adds functionality)"
         - label: "Breaking change (fix or feature that would cause existing functionality to not work as expected)"
         - label: "This change requires a documentation update"
-          required: true
-
-
-
-
-
-
+    validations:
+      required: false
   - type: checkboxes
     attributes:
-      label: "Type of Change"
-      description: ""
+      label: "Checklist"
       options:
-        - label: ""
-        - label: ""
-          required: true
-  - type: textarea
-    attributes:
-      label: ""
-      description: ""
-      placeholder: ""
+        - label: "My code follows the style guidelines of this project"
+        - label: "I have performed a self-review of my own code"
+        - label: "I have commented my code, particularly in hard-to-understand areas"
+        - label: "I have made corresponding changes to the documentation"
+        - label: "My changes generate no new warnings"
+        - label: "I have added tests that prove my fix is effective or that my feature works"
+        - label: "New and existing unit tests pass locally with my changes"
+        - label: "Any dependent changes have been merged and published in downstream modules"
+        - label: "I have checked my code and corrected any misspellings"
     validations:
       required: false
