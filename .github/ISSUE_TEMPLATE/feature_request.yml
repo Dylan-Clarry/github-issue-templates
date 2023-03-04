@@ -46,7 +46,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: "Required"
+      label: "## Required"
       description: "Add any other context or screenshots about the feature request here."
       placeholder: "Additional context"
     validations:
