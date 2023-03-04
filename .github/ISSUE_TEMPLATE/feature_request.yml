@@ -5,7 +5,9 @@ labels: ["feature"]
 body:
   - type: markdown
     attributes:
-      value: "## Is your feature requestt related to a problem? Please describe."
+      value: "## Is your feature request related to a problem? Please describe."
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: "Is your feature request related to a problem? Please describe."
