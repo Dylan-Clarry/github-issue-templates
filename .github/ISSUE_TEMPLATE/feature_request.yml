@@ -15,23 +15,38 @@ body:
       placeholder: Description
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     attributes:
-      label: "Describe the solution you would like"
-      description: "A clear and concise description of what you want to happen."
-      placeholder: "Solution"
-    validations: 
-      required: true
-  - type: textarea
-    attributes:
-      label: "Describe the alternatives you have tried"
-      description: "A clear and concise description of any alternative solutions or features you have considered."
-      placeholder: "Alternatives"
+      value: "## Describe the solution you would like"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: "Additional context"
+      label: "Required"
+      description: "A clear and concise description of what you want to happen."
+      placeholder: "Solution"
+    validations: 
+      required: true
+  - type: markdown
+    attributes:
+      value: "## Describe the alternatives you have tried"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "## Required"
+      description: "A clear and concise description of any alternative solutions or features you have considered."
+      placeholder: "Alternatives"
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "## Additional context"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Required"
       description: "Add any other context or screenshots about the feature request here."
       placeholder: "Additional context"
     validations:
