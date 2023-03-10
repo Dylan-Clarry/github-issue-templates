@@ -12,6 +12,12 @@ body:
           required: true
   - type: textarea
     attributes:
+      label: Describe the Bug
+      description: A clear and concise description of what the bug is and the expected behaviour
+    validations: 
+    required: true
+  - type: textarea
+    attributes:
       label: Steps to Reproduce
       description: Steps to reproduce the behaviour
       placeholder: |
@@ -20,13 +26,6 @@ body:
         3. Scroll down to '...'
         4. See error
     validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: Expected Behaviour
-      description: A clear and concise description of what can be expected to happen.
-      placeholder: Expected Behaviour
-    validations: 
       required: false
   - type: textarea
     attributes:
@@ -59,7 +58,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Smartphone
+        ## Smartphone
   - type: input
     id: mobile_os
     attributes:
