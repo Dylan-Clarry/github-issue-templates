@@ -90,5 +90,5 @@ body:
     attributes:
       label: Contribute
       options:
-        - value: I am willing to contribute and submit a pull request
+        - label: I am willing to contribute and submit a pull request
           required: false
