@@ -54,7 +54,26 @@ body:
     id: browser
     attributes:
       label: Which browser are you using?
-      placeholder: Chrome, Safari, Edge
+      placeholder: Chrome, Safari, Firefox
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ### Smartphone
+        Which device and operating system are you using?
+  - type: input
+    id: mobile_os
+    attributes:
+      label: Which mobile operating system are you using?
+      placeholder: iOS, Android, ChromeOS
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Which mobile browser are you using?
+      placeholder: Chrome, Safari, Firefox
     validations:
       required: false
 
