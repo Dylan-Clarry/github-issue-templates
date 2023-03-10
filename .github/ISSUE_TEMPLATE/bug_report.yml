@@ -26,7 +26,7 @@ body:
         3. Scroll down to '...'
         4. See error
     validations:
-      required: false
+      required: true
   - type: textarea
     attributes:
       label: Screenshots
@@ -40,41 +40,28 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Desktop
+        ## Device
   - type: input
     id: os
     attributes:
       label: Which operating system are you using?
-      placeholder: e.g. Linux, Mac, Windows
+      placeholder: e.g. Linux, Mac, Windows, iOS, Android
     validations:
-      required: false
+      required: true
   - type: input
-    id: mobile_browser
+    id: device
+    attributes:
+      label: Which device are you using?
+      placeholder: e.g. PC, MacBook, iPhone 8, Galaxy S23
+    validations:
+      required: true
+  - type: input
+    id: browser
     attributes:
       label: Which browser are you using?
       placeholder: e.g. Chrome, Safari, Firefox
     validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## Smartphone
-  - type: input
-    id: mobile_os
-    attributes:
-      label: Which mobile operating system are you using?
-      placeholder: e.g. iOS, Android, ChromeOS
-    validations:
-      required: false
-  - type: input
-    id: browser
-    attributes:
-      label: Which mobile browser are you using?
-      placeholder: e.g. Chrome, Safari, Firefox
-    validations:
-      required: false
-
-
+      required: true
   - type: textarea
     attributes:
       label: Additional Context
