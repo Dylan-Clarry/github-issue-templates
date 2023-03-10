@@ -41,18 +41,19 @@ body:
     attributes:
       value: |
         ## Device
+        Include operating system and browser versions if possible
+  - type: input
+    id: device
+    attributes:
+      label: Which device are you using?
+    placeholder: e.g. PC, MacBook Pro, iPhone 8, Galaxy S23
+    validations:
+      required: true
   - type: input
     id: os
     attributes:
       label: Which operating system are you using?
       placeholder: e.g. Linux, Mac, Windows, iOS, Android
-    validations:
-      required: true
-  - type: input
-    id: device
-    attributes:
-      label: Which device are you using?
-      placeholder: e.g. PC, MacBook, iPhone 8, Galaxy S23
     validations:
       required: true
   - type: input
