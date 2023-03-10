@@ -38,6 +38,18 @@ body:
        clicking the textarea and clicking on "Attach files by dragging & dropping, selecting or pasting them." to open a file selector.
     validations:
       required: false
+  - type: markdown
+    attributes:
+      - value: |
+        ## Desktop
+        What does your setup look like?
+  - type: input
+    id: os
+    attributes:
+      label: Which operating system are you using?
+      placeholder: Linux, Mac, Windows, iOS
+
+
   - type: textarea
     attributes:
       label: "Desktop (please complete the following information):"
