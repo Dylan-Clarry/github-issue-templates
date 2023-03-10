@@ -48,6 +48,15 @@ body:
     attributes:
       label: Which operating system are you using?
       placeholder: Linux, Mac, Windows, iOS
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Which browser are you using?
+      placeholder: Chrome, Safari, Edge
+    validations:
+      required: false
 
 
   - type: textarea
