@@ -85,3 +85,10 @@ body:
       placeholder: Additional Context
     validations:
       required: false
+  - type: input
+    id: can-contribute
+    attributes:
+      label: Contribute
+      options:
+        - value: I am willing to contribute and submit a pull request
+          required: false
