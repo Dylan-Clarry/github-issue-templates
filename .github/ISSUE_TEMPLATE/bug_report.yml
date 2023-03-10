@@ -47,14 +47,14 @@ body:
     id: os
     attributes:
       label: Which operating system are you using?
-      placeholder: Linux, Mac, Windows, iOS
+      placeholder: e.g. Linux, Mac, Windows, iOS
     validations:
       required: false
   - type: input
     id: mobile_browser
     attributes:
       label: Which browser are you using?
-      placeholder: Chrome, Safari, Firefox
+      placeholder: e.g. Chrome, Safari, Firefox
     validations:
       required: false
   - type: markdown
@@ -66,14 +66,14 @@ body:
     id: mobile_os
     attributes:
       label: Which mobile operating system are you using?
-      placeholder: iOS, Android, ChromeOS
+      placeholder: e.g. iOS, Android, ChromeOS
     validations:
       required: false
   - type: input
     id: browser
     attributes:
       label: Which mobile browser are you using?
-      placeholder: Chrome, Safari, Firefox
+      placeholder: e.g. Chrome, Safari, Firefox
     validations:
       required: false
 
