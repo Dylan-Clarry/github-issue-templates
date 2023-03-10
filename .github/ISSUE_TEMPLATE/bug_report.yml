@@ -5,15 +5,15 @@ labels: ["bug", "triage"]
 body:
   - type: checkboxes
     attributes:
-      label: "Have you checked if there is an existing issue for this?"
-      description: "Please search to see if an issue already exists for the bug you have encountered"
+      label: Have you checked if there is an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you have encountered
       options:
-        - label: "I have searched the existing issues"
+        - label: I have searched the existing issues
           required: true
   - type: textarea
     attributes:
-      label: "Steps to Reproduce"
-      description: "Steps to reproduce the behaviour"
+      label: Steps to Reproduce
+      description: Steps to reproduce the behaviour
       placeholder: |
         1. Go to '...'
         2. Click on '...'
@@ -23,15 +23,15 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: "Expected Behaviour"
-      description: "A clear and concise description of what can be expected to happen."
-      placeholder: "Expected Behaviour"
+      label: Expected Behaviour
+      description: A clear and concise description of what can be expected to happen.
+      placeholder: Expected Behaviour
     validations: 
       required: false
   - type: textarea
     attributes:
-      label: "Screenshots"
-      description: "If applicable, add screenshots to help explain your problem"
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem
       placeholder: |
        You can upload screenshots by either dragging and dropping the image in the textarea
        OR
@@ -41,7 +41,7 @@ body:
   - type: textarea
     attributes:
       label: "Desktop (please complete the following information):"
-      description: "Steps to reproduce the behaviour"
+      description: Steps to reproduce the behaviour
       placeholder: |
         - OS: [e.g. iOS]
         - Browser: [e.g. Chrome, Safari]
@@ -51,7 +51,7 @@ body:
   - type: textarea
     attributes:
       label: "Smartphone (please complete the following information):"
-      description: "Steps to reproduce the behaviour"
+      description: Steps to reproduce the behaviour
       placeholder: |
         - Device: [e.g. iPhone 6]
         - OS: [e.g. iOS 8.1]
@@ -61,8 +61,8 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: "Additional Context"
-      description: "Add any other context about the problem here."
-      placeholder: "Additional Context"
+      label: Additional Context
+      description: Add any other context about the problem here.
+      placeholder: Additional Context
     validations:
       required: false
