@@ -40,7 +40,7 @@ body:
       required: false
   - type: markdown
     attributes:
-      - value: |
+      value: |
         ## Desktop
         What does your setup look like?
   - type: input
