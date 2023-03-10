@@ -42,7 +42,6 @@ body:
     attributes:
       value: |
         ## Desktop
-        What does your setup look like?
   - type: input
     id: os
     attributes:
@@ -61,7 +60,6 @@ body:
     attributes:
       value: |
         ### Smartphone
-        Is your issue on mobile?
   - type: input
     id: mobile_os
     attributes:
