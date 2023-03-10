@@ -46,7 +46,7 @@ body:
     id: device
     attributes:
       label: Which device are you using?
-    placeholder: e.g. PC, MacBook Pro, iPhone 8, Galaxy S23
+      placeholder: e.g. PC, MacBook Pro, iPhone 8, Galaxy S23
     validations:
       required: true
   - type: input
