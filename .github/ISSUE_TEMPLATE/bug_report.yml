@@ -51,7 +51,7 @@ body:
     validations:
       required: false
   - type: input
-    id: browser
+    id: mobile_browser
     attributes:
       label: Which browser are you using?
       placeholder: Chrome, Safari, Firefox
