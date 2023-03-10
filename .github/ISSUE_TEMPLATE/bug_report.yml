@@ -85,7 +85,7 @@ body:
       placeholder: Additional Context
     validations:
       required: false
-  - type: input
+  - type: checkboxes
     id: can-contribute
     attributes:
       label: Contribute
