@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Check existing issues
-        _Before submitting an issue_ please search [existing issues](https://github.com/gbowne1/reactsocialnetwork/issues) to see if an issue your bug already exists
+        ## Check existing issues*
+        _Before submitting an issue_ please search [existing issues](https://github.com/gbowne1/reactsocialnetwork/issues) to see if an issue for your bug already exists
   - type: markdown
     attributes:
       value: |
