@@ -7,12 +7,9 @@ body:
     attributes:
       value: |
         ## Bug Description
-  - type: markdown
-    attributes:
-      value: |
-        ## Bug Description
   - type: checkboxes
     attributes:
+      label: Have you checked if there is an existing issue for this?
       description: Please search to see if an issue already exists for the bug you have encountered
       options:
         - label: I have searched the existing issues
