@@ -1,7 +1,7 @@
 name: 💡 Feature Request
 description: Suggest an idea for this project
 title: "[feature]: <title>"
-labels: ["feature"]
+labels: ["💡feature Request"]
 body:
   - type: textarea
     attributes:
