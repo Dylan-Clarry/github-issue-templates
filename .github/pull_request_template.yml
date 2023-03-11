@@ -1,7 +1,7 @@
 name: Pull Request
 description: ""
 title: Pull Request
-labels: ["bug", "triage"]
+labels: []
 body:
   - type: textarea
     attributes:
@@ -13,7 +13,7 @@ body:
         Fixes # (issue)"
       placeholder: ""
     validations:
-      required: false
+      required: true
   - type: checkboxes
     attributes:
       label: Type of Change
@@ -24,7 +24,7 @@ body:
         - label: Breaking change (fix or feature that would cause existing functionality to not work as expected)
         - label: This change requires a documentation update
     validations:
-      required: false
+      required: true
   - type: checkboxes
     attributes:
       label: Checklist
