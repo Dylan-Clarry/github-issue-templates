@@ -1,7 +1,7 @@
 name: 🐛 Bug Report
 description: Create a bug report to help us improve this project
 title: "[Bug]: <title>"
-labels: ["bug", "triage"]
+labels: ["🐛❔unconfirmed bug"]
 body:
   - type: markdown
     attributes:
