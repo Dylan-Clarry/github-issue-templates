@@ -1,6 +1,6 @@
-name: Bug Report
+name: 🐛 Bug Report
 description: Create a bug report to help us improve this project
-title: "[Bug]: <title>"
+title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
   - type: checkboxes
@@ -32,16 +32,16 @@ body:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem
       placeholder: |
-       You can upload screenshots by either dragging and dropping the image in the textarea
-       OR
-       clicking the textarea and clicking on "Attach files by dragging & dropping, selecting or pasting them." to open a file selector.
+       Drag and drop image here
+                  OR
+       Click the textarea then "Attach files"
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
         ## Device
-        Include operating system and browser versions if possible
+        Please specify if you found the bug while on mobile or desktop and include operating system and browser versions if possible
   - type: input
     id: device
     attributes:
