@@ -43,6 +43,7 @@ body:
     attributes:
       value: |
         ## Device
+        Provide the version number wherever possible
   - type: input
     id: device
     attributes:
