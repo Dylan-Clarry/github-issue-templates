@@ -7,10 +7,10 @@ body:
     attributes:
       value: |
         ## Bug Description
+        _Before submitting an issue_ please search [existing issues](https://github.com/gbowne1/reactsocialnetwork/issues) to see if an issue your bug already exists
   - type: checkboxes
     attributes:
-      label: Have you checked if there is an existing issue for this?
-      description: Please search to see if an issue already exists for the bug you have encountered
+      label: 
       options:
         - label: I have searched the existing issues
           required: true
