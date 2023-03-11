@@ -8,12 +8,6 @@ body:
       value: |
         ## Check existing issues
         _Before submitting an issue_ please search [existing issues](https://github.com/gbowne1/reactsocialnetwork/issues) to see if an issue your bug already exists
-  - type: checkboxes
-    attributes:
-      label: ~
-      options:
-        - label: I have searched the existing issues
-          required: true
   - type: markdown
     attributes:
       value: |
