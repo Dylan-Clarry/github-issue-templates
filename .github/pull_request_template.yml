@@ -1,42 +1,47 @@
-name: Pull Request
-description: ""
-title: Pull Request
-labels: []
-body:
-  - type: textarea
-    attributes:
-      label: Description
-      description: "Please include a summary of the change and which issue is fixed. Please also include relevent motivation and context. List any dependencies that are required for this change.
+# Pull Request Template
 
-        Please delete options options that are not relevent and please make sure that you X the appropriate boxes.
+## Description
 
-        Fixes # (issue)"
-      placeholder: ""
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Type of Change
-      description: ""
-      options:
-        - label: Bug fix (non-breaking change which fixes an issue)
-        - label: New feature (non-breaking change which adds functionality)
-        - label: Breaking change (fix or feature that would cause existing functionality to not work as expected)
-        - label: This change requires a documentation update
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Checklist
-      options:
-        - label: My code follows the style guidelines of this project
-        - label: I have performed a self-review of my own code
-        - label: I have commented my code, particularly in hard-to-understand areas
-        - label: I have made corresponding changes to the documentation
-        - label: My changes generate no new warnings
-        - label: I have added tests that prove my fix is effective or that my feature works
-        - label: New and existing unit tests pass locally with my changes
-        - label: Any dependent changes have been merged and published in downstream modules
-        - label: I have checked my code and corrected any misspellings
-    validations:
-      required: true
+Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+
+Please delete options that are not relevant and please make sure that you X the appropriate boxes.
+
+Fixes # (issue)
+
+## Type of change
+
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] This change requires a documentation update
+
+## How Has This Been Tested?
+
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration.  If you can, also describe your test and any test libraries for instance, Jest or Mocha for Javascript.
+
+- [ ] Test A
+- [ ] Test B
+
+**Test Configuration**:
+
+- Hardware:
+
+- Operating System:
+
+- Toolchain:
+
+- Browser:
+
+- SDK:
+
+## Checklist
+
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] I have checked my code and corrected any misspellings
