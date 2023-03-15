@@ -1,0 +1,36 @@
+- name: 🍻a11y
+  description: Issues with accessibility
+  color: 
+- name: 🐛❔Unconfirmed Bug
+  description: Something may not be working
+  color: 
+- name: 🐛Confirmed Bug
+  description: Something isn't working
+  color: 
+- name: 😎css
+  description: Issues with css
+  color: 
+- name: 📘Documentation
+  description: Improvements or additions to documentation
+  color: 
+- name: 👯Duplicate
+  description: This issue or pull request already exists
+  color: 
+- name: 🌟Enhancement
+  description: New feature or request
+  color: 
+- name: 🌱Good First Issue
+  description: Good for newcomers
+  color: 
+- name: 🙋Help Wanted
+  description: Extra attention is needed
+  color: 
+- name: 🚫Invalid
+  description: This doesn't seem right
+  color: 
+- name: ❔Question
+  description: Further information is requested
+  color: 
+- name: 🙅Wont Fix
+  description: This will not be worked on
+  color: 
