@@ -1,36 +1,36 @@
 - name: 🍻a11y
   description: Issues with accessibility
-  color: 
+  color: f9d0c4
 - name: 🐛❔Unconfirmed Bug
   description: Something may not be working
-  color: 
+  color: f9d0c4
 - name: 🐛Confirmed Bug
   description: Something isn't working
-  color: 
+  color: f9d0c4
 - name: 😎css
   description: Issues with css
-  color: 
+  color: f9d0c4
 - name: 📘Documentation
   description: Improvements or additions to documentation
-  color: 
+  color: f9d0c4
 - name: 👯Duplicate
   description: This issue or pull request already exists
-  color: 
+  color: f9d0c4
 - name: 🌟Enhancement
   description: New feature or request
-  color: 
+  color: f9d0c4
 - name: 🌱Good First Issue
   description: Good for newcomers
-  color: 
+  color: f9d0c4
 - name: 🙋Help Wanted
   description: Extra attention is needed
-  color: 
+  color: f9d0c4
 - name: 🚫Invalid
   description: This doesn't seem right
-  color: 
+  color: f9d0c4
 - name: ❔Question
   description: Further information is requested
-  color: 
+  color: f9d0c4
 - name: 🙅Wont Fix
   description: This will not be worked on
-  color: 
+  color: f9d0c4
